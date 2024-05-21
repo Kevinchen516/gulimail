@@ -1,13 +1,17 @@
 package com.kevin.gulimail.coupon;
 
-import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.JUnit4;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.junit.Test;
+import org.springframework.test.context.junit4.SpringRunner;
 
 @SpringBootTest
-class GulimailCouponApplicationTests {
+@RunWith(SpringRunner.class)
+public class GulimailCouponApplicationTests {
 
     @Test
-    void contextLoads() {
+    public void contextLoads() {
     }
 
 }
